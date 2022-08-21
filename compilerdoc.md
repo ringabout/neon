@@ -6,3 +6,7 @@ in the compiler is the result adding a 'm' before the magic name. For instance, 
 ```nim
 proc `&`*(x: string, y: string): string {.magic: "ConStrStr".}
 ```
+
+## mConStrStr
+
+It is a magic proc used to concatenate strings and chars. The Nim compiler does some optimizations to make it perform as good as the in-place version.

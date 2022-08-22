@@ -84,14 +84,15 @@ to `s`.
 
 
 ```c
-  #    string tmp0;
-  #    string name;
-  #    ...
-  #    tmp0 = rawNewString(6 + 18 + name.len + 1);
-  #    // we cannot generate s = rawNewString(...) here, because
-  #    // ``s`` may be used on the right side of the expression
-  #    appendString(tmp0, strlit_1);
-  #    appendString(tmp0, name);
-  #    appendString(tmp0, strlit_2);
-  #    asgn(s, tmp0);
+string tmp0;
+string s;
+string name;
+...
+tmp0 = rawNewString(6 + 18 + name.len + 1);
+// we cannot generate s = rawNewString(...) here, because
+// ``s`` may be used on the right side of the expression
+appendString(tmp0, strlit_1);
+appendString(tmp0, name);
+appendString(tmp0, strlit_2);
+asgn(s, tmp0);
 ```

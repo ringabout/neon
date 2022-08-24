@@ -7,7 +7,7 @@ in the compiler is the result adding a 'm' before the magic name. For instance, 
 proc `&`*(x: string, y: string): string {.magic: "ConStrStr".}
 ```
 
-## mConStrStr
+## Is it efficent to use `$` function to concatenate multiple strings
 
 It is a magic proc used to concatenate strings and chars. The Nim compiler does some optimizations to make it perform as good as the in-place version.
 

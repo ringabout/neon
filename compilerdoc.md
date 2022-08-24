@@ -9,7 +9,7 @@ proc `&`*(x: string, y: string): string {.magic: "ConStrStr".}
 
 ## Is it efficent to use `$` function to concatenate multiple strings
 
-It is a magic proc used to concatenate strings and chars. The Nim compiler does some optimizations to make it perform as good as the in-place version.
+`$` function is a magic proc used to concatenate strings and chars. The Nim compiler does some optimizations to make it perform as good as the in-place version.
 
 There are four overloads for `$` function in the system module.
 

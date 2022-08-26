@@ -1,11 +1,9 @@
 name: github pages
 
-#on: [push]  # debug
 on:
   push:
     branches:
       - main
-
 jobs:
   framework-docs:
     runs-on: ubuntu-20.04

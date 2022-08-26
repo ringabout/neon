@@ -3,3 +3,6 @@
 Here is a compiler guide: https://ringabout.github.io/neon following instructions from https://github.com/nim-lang/RFCs/issues/478.
 
 **It is a draft; read at your risk.**
+
+
+All Rights Reversed

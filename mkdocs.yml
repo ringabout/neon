@@ -1,0 +1,21 @@
+site_name: Neon
+site_description: A compiler guide for the Nim language.
+
+theme:
+    name: 'material'
+
+repo_name: ringabout/Neon
+repo_url: https://github.com/ringabout/Neon
+
+nav:
+    - Introduction: "index.md"
+    - Concatenate: "concatenate.md"
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - mkautodoc

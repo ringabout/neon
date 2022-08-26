@@ -4,8 +4,8 @@ site_description: A compiler guide for the Nim language.
 theme:
     name: 'material'
 
-repo_name: ringabout/Neon
-repo_url: https://github.com/ringabout/Neon
+repo_name: ringabout/neon
+repo_url: https://github.com/ringabout/neon
 
 nav:
     - Introduction: "index.md"

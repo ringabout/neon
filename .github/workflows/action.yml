@@ -45,7 +45,6 @@ jobs:
   deploy-docs:
     needs:
       - framework-docs
-      - api-docs
     runs-on: ubuntu-latest
     steps:
       - name: Download all docs

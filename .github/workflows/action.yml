@@ -39,7 +39,7 @@ jobs:
       - run: mkdocs build
 
       - name: Archive framework docs
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: framework-docs
           path: |

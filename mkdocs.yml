@@ -9,7 +9,7 @@ repo_url: https://github.com/ringabout/Neon
 
 nav:
     - Introduction: "index.md"
-    - Is it efficient to use `$` function to concatenate multiple strings: "concatenate.md"
+    - Is-it-efficient-to-concatenate-multiple-strings: "concatenate.md"
 
 
 markdown_extensions:

@@ -1,3 +1,5 @@
+# Is it efficient to use `$` function to concatenate multiple strings
+
 `$` function is a magic proc used to concatenate strings and chars. The Nim compiler does some optimizations to make it perform as good as the in-place version.
 
 There are four overloads for `$` function in the system module.
